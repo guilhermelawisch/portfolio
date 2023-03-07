@@ -1,0 +1,37 @@
+.sectionContact {
+  max-width: 1080px;
+  margin: 64px auto;
+
+  h2 {
+    font-size: 36px;
+    color: #EDDBC0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    > div {
+
+      a {
+        align-items: center;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+  }
+
+  svg {
+    width: 32px;
+
+  }
+}

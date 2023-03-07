@@ -1,0 +1,52 @@
+.sectionExperience {
+  max-width: 1080px;
+  margin: 64px auto;
+
+  h2 {
+    font-size: 36px;
+    color: #EDDBC0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  > div {
+    display: flex;
+
+    > div:first-child {
+      height: 100%;
+      padding: 32px 16px;
+
+      div {
+        background-color: #B73E3E;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    > div:last-child {
+      padding: 24px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      p,
+      ul {
+        margin: 0;
+      }
+
+      li {
+        list-style: circle
+      }
+    }
+  }
+}
+
+

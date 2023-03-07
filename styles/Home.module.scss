@@ -1,6 +1,6 @@
 .sectionHome {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 
   max-width: 1080px;
   margin: auto;
@@ -10,7 +10,7 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 32px;
+    gap: 36px;
 
     h3 {
       font-family: 'Poppins', sans-serif;

@@ -9,11 +9,11 @@ export function HeaderComponent() {
 				</div>
 				<div>
 					<ul>
-						<li><a href="">Início</a></li>
-						<li><a href="">Sobre</a></li>
-						<li><a href="">Conhecimento</a></li>
-						<li><a href="">Experiência</a></li>
-						<li><a href="">Contato</a></li>
+						<li><a href="#home">Início</a></li>
+						<li><a href="#about">Sobre</a></li>
+						<li><a href="#experience">Experiência</a></li>
+						<li><a href="#projects">Projetos</a></li>
+						<li><a href="#contact">Contato</a></li>
 					</ul>
 				</div>
 			</header>

@@ -1,0 +1,39 @@
+.sectionProjects {
+  max-width: 1080px;
+  margin: 64px auto;
+
+  h2 {
+    font-size: 36px;
+    color: #EDDBC0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 32px;
+
+    div {
+      background-color: #333;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      h3 {
+        color: #EDDBC0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      p {
+        margin: 0;
+        font-size: 18px;
+      }
+    }
+  }
+}
