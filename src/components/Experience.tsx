@@ -53,7 +53,7 @@ export function ExperienceComponent() {
               <p>{ experience.company }</p>
               <p>{ experience.time }</p>
               <ul>
-                { experience.obs.map((obs) => <li>{ obs }</li>) }
+                { experience.obs.map((obs, indexObs) => <li key={indexObs}>{ obs }</li>) }
               </ul>
             </div>
           </div>

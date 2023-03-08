@@ -1,4 +1,5 @@
 .sectionProjects {
+  width: 90%;
   max-width: 1080px;
   margin: 64px auto;
 
@@ -34,6 +35,16 @@
         margin: 0;
         font-size: 18px;
       }
+    }
+  }
+}
+
+@media (max-width: 777px) {
+  .sectionProjects {
+    width: 90%;
+
+    > div {
+      grid-template-columns: 1fr;
     }
   }
 }
