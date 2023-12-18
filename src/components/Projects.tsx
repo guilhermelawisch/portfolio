@@ -7,7 +7,7 @@ export function ProjectsComponent() {
       <div>
         <div>
           <h3>Aplicativo para Android e iOS</h3>
-          <p>Comecei o estágio estudando desenvolvimento Mobile através dos cursos da Alura, com isso, desenvolvi um app do zero, para exibição de conteúdo em formato de texto e vídeo, além disso, esse aplicativo possuí um sistema de solicitações. Aprimorei muito minha habilidade de resolver provlemas, pois era o único da equipe que conhecia a tecnologia.</p>
+          <p>Comecei o estágio estudando desenvolvimento Mobile através dos cursos da Alura, com isso, desenvolvi um app do zero, para exibição de conteúdo em formato de texto e vídeo, além disso, esse aplicativo possuí um sistema de solicitações. Aprimorei muito minha habilidade de resolver problemas, pois era o único da equipe que conhecia a tecnologia.</p>
         </div>
         <div>
           <h3>Ferramentas de Cálculo Tributário</h3>
